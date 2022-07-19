@@ -1,3 +1,16 @@
+# criar key para acesso ao github:
+
+ssh-keygen -t rsa -b 4096 -C meuemailaqui
+
+após, acessar pasta .ssh e ler o arquivo .pub 
+copiar a chave toda e colar la no github/settings/security
+
+essa chave é por maquina, se mudar, tem que fazer o procedimento
+novamente
+
+
+
+
 # Como usar o Git e Github na prática
  
 ## Início
